@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-image: url(https://i.ibb.co/dWwbV8C/waste-management-blog.jpg);
+}
+
+header {
+    background: #51b47b;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+
+
+main {
+    padding: 20px;
+}
+
+.blog-posts {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.post {
+    background: #51b47b;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(189, 32, 32, 0.1);
+}
+
+.post h2 {
+    color: #0effcf;
+}
+
+.date {
+    font-size: 0.9em;
+    color: #666;
+}
+
+.read-more {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background: #228389;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.read-more:hover {
+    background: #0f3751;
+}
+
+.upload-form {
+    max-width: 800px;
+    margin: 20px auto;
+    background: #51b47b;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.upload-form h2 {
+    color: #0effcf;
+}
+
+.upload-form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.upload-form input[type="text"],
+.upload-form input[type="date"],
+.upload-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.upload-form button {
+    padding: 10px 15px;
+    background: #228389;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.upload-form button:hover {
+    background: #e2e919;
+}
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #51b47b; 
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
